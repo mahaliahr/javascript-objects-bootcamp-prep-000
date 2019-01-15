@@ -1,6 +1,6 @@
-var playlist = {migration : "bonobo"};
+var playlist = {bonobo : "migrations"};
 
-function updatePlaylist(playlist, artist, songTitle) {
+function updatePlaylist(playlist, artistName, songTitle) {
   playlist.songTitle = artist
   return playlist
 }
