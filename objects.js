@@ -1,7 +1,7 @@
 var playlist = {bonobo : "migrations"};
 
 function updatePlaylist(playlist, artistName, songTitle) {
-  playlist.songTitle = artist
+  playlist.songTitle = artistName
   return playlist
 }
 
